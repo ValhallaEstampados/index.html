@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valhalla Estampados</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      color: #000000;
+    }
+
+    /* Estilos del encabezado */
+    .header {
+      background-color: #494d50;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    /* Estilos de la barra de navegación */
+    .navbar {
+      background-color: #c65353;
+      color: #ffffff;
+      padding: 10px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .navbar ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    /* Estilos de la sección hero */
+    .hero-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    .hero-text {
+      flex-basis: calc(50% - 30px);
+    }
+
+    .hero-image {
+      flex-basis: 50%;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Estilos de la sección de sublimación */
+    .sublimation-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      background-color: #ffffff;
+    }
+
+    .sublimation-text {
+      flex-basis: calc(50% - 30px);
+    }
+
+    .sublimation-image {
+      flex-basis: 50%;
+      text-align: center;
+    }
+
+    .sublimation-image img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Estilos de la sección de vinilo textil */
+    .vinyl-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    .vinyl-text {
+      flex-basis: calc(50% - 30px);
+    }
+
+    .vinyl-image {
+      flex-basis: 50%;
+      text-align: center;
+    }
+
+    .vinyl-image img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Estilos del pie de página */
+    .footer {
+      background-color: #494d50;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .footer-text {
+      margin: 0;
+    }
+
+    .social-links {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    .social-links li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-links li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Valhalla Estampados</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-section">
+    <div class="hero-text">
+      <h2>Personalización de Camisetas</h2>
+      <p class="texto-principal">
+        En Valhalla Estampados, nos especializamos en ofrecer servicios de personalización de camisetas. Nuestro enfoque está en brindar estampados de la más alta calidad con apariencia de bordado. Utilizamos técnicas avanzadas para lograr resultados excepcionales que satisfagan las expectativas de nuestros clientes.
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="hero-image.jpg" alt="Personalización de Camisetas">
+    </div>
+  </section>
+
+  <section class="sublimation-section">
+    <div class="sublimation-image">
+      <img src="sublimation-image.jpg" alt="Sublimación">
+    </div>
+    <div class="sublimation-text">
+      <h2>Sublimación</h2>
+      <p class="texto-principal">
+        Además de nuestros estampados con apariencia de bordado, también ofrecemos personalización mediante la técnica de sublimación. Esta técnica nos permite transferir diseños completos y detallados a las camisetas, obteniendo colores vibrantes y duraderos. También realizamos personalización de tazones utilizando la sublimación.
+      </p>
+    </div>
+  </section>
+
+  <section class="vinyl-section">
+    <div class="vinyl-text">
+      <h2>Vinilo Textil</h2>
+      <p class="texto-principal">
+        Otra opción que ofrecemos es la personalización con vinilo textil. Esta técnica nos permite crear diseños con colores sólidos y efectos especiales, como brillos y texturas. El vinilo textil es ideal para logotipos y diseños con detalles precisos que requieren una apariencia nítida y definida.
+      </p>
+    </div>
+    <div class="vinyl-image">
+      <img src="vinyl-image.jpg" alt="Vinilo Textil">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">Valhalla Estampados - Santiago, Chile</p>
+    <p class="footer-text">Correo electrónico: valhallaestampados@gmail.com</p>
+    <ul class="social-links">
+      <li><a href="#" target="_blank">Facebook</a></li>
+      <li><a href="#" target="_blank">Instagram</a></li>
+      <li><a href="#" target="_blank">Twitter</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
